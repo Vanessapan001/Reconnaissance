@@ -1,8 +1,6 @@
 
 # Reconnaissance
 
-## Active Reconnaissance
-
 ### 01. Gaining Initial Access 
 
 We have several passive reconnaissance tools, such as Google dorking and Shodan, to gather information about our target.
@@ -70,14 +68,4 @@ Another way of gaining initial access is by finding a VPN configuration file bel
    - This method can be used in conjunction with **password guessing**, as users often have weak and commonly used passwords.
 
 
-### 03. Scanning and Internal Reconnaissance
-
-Now that we are inside the network of our target, we will now perform reconnaissance inside the internal network, known as **active reconnaissance**, in order to reveal which devices are on the network and what potential new targets await.
-
-- We call this **active reconnaissance** because we are now directly interacting with our target.
-- It is also considered **internal reconnaissance** because we are conducting this *internally* within the target. 
-- While inside the network, we can gather the following:
-    - Information about the host, known as **host enumeration**.
-    - Information about processes on the system, known as **process enumeration**.
-    - Information about the users on the system.
 
